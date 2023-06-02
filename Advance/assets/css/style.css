@@ -1,0 +1,271 @@
+.title{
+    background-color: yellow;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.title>h1{
+    color: blueviolet;
+}
+.title>p{
+    color: #fff;
+    font-size: 20px;
+}
+/*COMMON CLASS*/
+.common{
+    background-color: #ddd;
+    padding: 30px;
+    margin: 30px;
+    border: 3px solid #ccc;
+}
+.cssOutline{
+    outline: 3px solid #000;
+    border-radius: 10px;
+}
+/* p3.html */
+.cssOverflow>p{
+    text-align: justify;
+    line-height: 2;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+}
+.cssOverflow>p:last-child{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* p4.html code */
+.cssWhiteSpace{
+    white-space: pre-wrap;
+}
+/* p5.html code */
+.cssUnits>h3:nth-child(1){
+     margin: 0.5in; /*Inches - 1in is equal to 2.54cm */
+}
+.cssUnits>h3:nth-child(2){
+    line-height: 3cm; /*centimeter*/
+}
+.cssUnits>h3:nth-child(3){
+    word-spacing: 4cm; /*millimeters*/
+}
+.cssUnits>h3:nth-child(4){
+    font-size: 12pt; /*points */
+}
+.cssUnits>h3:nth-child(5){
+    font-size: 1pc; /*picas */
+}
+.cssUnits>h3:nth-child(6){
+    font-size: 12px; /*pixel */
+}
+/* p6.html */
+.cssVisibilityDisplay>p{
+    background-color: aqua;
+    padding: 20px;
+    border: 5px solid red;
+}
+.cssVisibilityDisplay>.cssVisibility{
+    visibility:hidden
+}
+.cssVisibilityDisplay>.cssDisplay{
+    display: none;
+}
+/* p7.html */
+.cssWordWrap{
+    background-color: gray;
+    padding: 20PX;
+    width: 300px;
+    word-wrap: break-word;
+
+}
+/* cssResize */
+.cssResize{
+    overflow: auto;
+    resize: both;
+}
+/* cssOffsetOutline */
+.cssOffsetOutline{
+    outline: 3px solid #000;
+    outline-offset: 10px;
+}
+/*cssColumnCount  */
+.cssColumnCount{
+    line-height: 2;
+    text-align: center;
+}
+.cssColumnCount>div{
+    column-gap: 50px;
+    column-rule: 2px solid red;
+    column-width: 200px;
+}
+/* p8.html */
+.cssOpacity>p{
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+    opacity: 0.2;
+}
+.cssOpacity>div{
+    background-color: rgba(128, 128, 222, 0.2);
+    color: rgba(214, 123, 012, 0.2);
+    padding: 20px;
+}
+/* p9.html */
+.CssAttribute>h1{
+    color: brown;
+}
+.CssAttribute>p{
+    color: grey;
+}
+.CssAttribute>[title]{
+    background-color: yellow;
+}
+.CssAttribute>p[title]{
+    padding: 20px;
+}
+.CssAttribute>h1[title]{
+    font-style: italic;
+}
+.CssAttribute>p>abbr[id]{
+    background-color: red;
+    color: yellow;
+
+}
+.CssAttribute>form>[type]{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.CssAttribute>form>[type="text"]{
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.CssAttribute>form>[type="submit"]{
+    background-color: lightseagreen;
+    border: 2px solid red;
+}
+/* p10.html */
+.cssPsuedoClass>h1{
+    color: dimgrey;
+}
+.cssPsuedoClass>h1:hover{
+    color: green;
+}
+.cssPsuedoClass>a:link{
+    color: #fff;
+}
+.cssPsuedoClass>a:hover{
+    color: yellow;
+}
+.cssPsuedoClass>a:active{
+    color: green;
+}
+.cssPsuedoClass>a:visited{
+    color:red;
+}
+/* p11.html */
+.cssPsuedoElement>section:first-child::first-line, .cssPsuedoElement>section:nth-child(2)::first-letter{
+    background-color: red;
+    color: #fff;
+}
+.cssPsuedoElement>section:nth-child(2)::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+.cssPsuedoElement>section:last-child>h1::before{
+    content: "BEFORE H1";
+    background-color: yellow;
+    color: red;
+}
+.cssPsuedoElement>section:last-child>h1::after{
+    content: "AFTER H1";
+    background-color: yellow;
+    color: red;
+}
+/* p12.html */
+.cssPosition>h1:first-child, .cssPosition>div>h1:first-child{
+    background-color: teal;
+}
+.cssPosition>h1:nth-child(2), .cssPosition>div>h1:nth-child(2){
+    background-color: tomato;
+}
+.cssPosition>h1:nth-child(3), .cssPosition>div>h1:nth-child(3){
+    background-color: violet;
+}
+.cssPosition h1{
+    padding: 20px;
+    color: #fff;
+}
+.cssPosition>.second{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.cssPosition>div>.fifth{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.cssPosition>div{
+    border: 2px solid #000;
+    padding: 20px;
+    position: relative;
+}
+.cssPosition>.seven{
+    background-color: blue;
+}
+.cssPosition>.eight{
+    background-color: crimson;
+    position: sticky;
+    top:0%;
+}
+.cssPosition>.nine{
+    background-color: #000;
+    position: fixed;
+    top: 40%;
+    right: 0%;
+    border-radius: 5px;
+    transition: 1s;
+}
+.cssPosition>.nine:hover{
+    right: 2%;
+}
+/* p13.html */
+.zIndex>section{
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    color:#fff;
+    position: absolute;
+}
+.zIndex{
+    position: relative;
+    height: 300px;
+}
+.zIndex>.first{
+    background-color: darkgoldenrod;
+    top:10px;
+    left:10px;
+    z-index: 1;
+}
+.zIndex>.second{
+    background-color: green;
+    top:50px;
+    left: 50px;
+    z-index: 2;
+}
+.zIndex>.third{
+    background-color: violet;
+    top:100px;
+    left: 100px;
+    z-index: 3;
+}
+.zIndex>.first:hover{
+    z-index: 4;
+}
+.zIndex>.second:hover{
+    z-index: 4;
+}

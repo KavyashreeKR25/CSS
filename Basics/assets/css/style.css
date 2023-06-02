@@ -1,0 +1,182 @@
+.cssColor1{
+    background-color: #7f0021;
+}
+.cssColor2{
+    background-color: skyblue;
+}
+.cssColor3{
+    background-color: #a3c4c4;
+}
+.commonCsscolors{
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+/*p7.html*/
+.jumbotron{
+    background-color: blueviolet;
+    border-radius:10px;
+}
+.cssFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+    font-weight:bold;
+    font-size: 20px;
+    font-variant:small-caps;
+}
+.cssText{
+    text-align:justify;
+    line-height:2;
+    letter-spacing: 2px;
+    word-wrap:20px;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+.cssText>p{
+    text-indent: 100px;
+}
+/*p8.html*/
+.navBar{
+    background-color: gray;
+}
+.navBar>ul{
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li:hover{
+    background-color: #fff;
+}
+.navBar>ul>li>a{
+    color:#fff;
+    text-decoration: none;
+}
+.navBar>ul>li:hover a{
+    color:#808080;
+}
+.navBar>img{
+    height: 54px;
+}
+/*LIST MARKER POSITION */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>li::marker{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+}
+/*list-icon*/
+.list-icon>ul>li{
+    margin-bottom: 20px;
+    list-style-image: url(../images/location-pin.png);
+}
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin: 20px;
+    color:#fff;
+   /* list-style-type: none;
+    list-style-position: inside;
+    list-style-image: url(../media/location-pin.png);*/
+    list-style:none inside url(../images/location-pin.png);
+}
+/*p9.html*/
+.empty-cell-table{
+    empty-cells: hide;
+}
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+    border: 1px solid #000;
+    padding: 20px;
+    border-collapse: collapse;
+    color: #fff;
+}
+.odd-even-table tr:nth-child(even){
+    background-color:lightgrey ;
+}
+.odd-even-table tr:nth-child(odd){
+    background-color:grey ;
+}
+.odd-even-table tr:hover{
+    background-color:lightcoral;
+}
+.odd-even-table th{
+    background-color: aqua;
+}
+.odd-even-table>caption{
+    color: #808080;
+    font-weight: bold;
+    caption-side: bottom;
+}
+.layout-table, .layout-table th, .layout-table td{
+    border: 2px solid #808080;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.layout-table{
+    width:10%;
+    table-layout: fixed;
+}
+.layout-table td, .layout-table th{
+    overflow: scroll;
+
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: blue;
+}
+header>nav>ul{
+    list-style: none;
+    float: right;
+}
+header>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+header nav ul li:hover{
+    background-color: aliceblue;
+}
+header nav ul li a{
+    color: #a3c4c4;
+    text-decoration: none;
+}
+header nav ul li:hover a{
+    color: #7f0021;
+}
+header nav img{
+    height: 54px;
+}
+/*p11.html*/
+.banner1{
+    background-color: antiquewhite;
+}
+.bannerCommonClass{
+    color: #808080;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+}
+.bannerCommonClass>h1{
+    font-size: 50px;
+}
+.bannerCommonClass{
+    color: #000;
+}
+.banner2{
+    background-image:url(../images/image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
